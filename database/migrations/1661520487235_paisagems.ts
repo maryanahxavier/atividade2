@@ -7,6 +7,7 @@ export default class extends BaseSchema {
     this.schema.createTable(this.tableName, (table) => {
         table.string('email')
         table.string ('senha')
+        table.string ('comentarios')
 
       /**
        * Uses timestamptz for PostgreSQL and DATETIME2 for MSSQL
