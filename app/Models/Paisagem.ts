@@ -1,16 +1,19 @@
 import { DateTime } from 'luxon'
 import { BaseModel, column } from '@ioc:Adonis/Lucid/Orm'
 
+
 export default class Paisagem extends BaseModel {
+  @column({ isPrimary: true })
+  public id: number
   
   @column()
-  public email: string
+  public foto: string
 
   @column()
-  public senha: string
+  public nome: string
 
   @column()
-  public comentarios: string
+  public local: string
 
   @column.dateTime({ autoCreate: true })
   public createdAt: DateTime
