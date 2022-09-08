@@ -5,7 +5,7 @@ Content-Type: application/json
 Authorization: Bearer MQ.PumXyNpu9QmizvQRjFVyQmH6nQXA-Lyh_YESHiupUXhExRgJG7ep3T4OnExz {
 
 {
-"name":     
+"name": "Paisagem"
 }
 
 ###### Listar todos as Mensagens 
@@ -19,7 +19,7 @@ Content-Type: application/json
 Authorization: Bearer MQ.PumXyNpu9QmizvQRjFVyQmH6nQXA-Lyh_YESHiupUXhExRgJG7ep3T4OnExz
 
 {
-
+"name": "Paisagem"
 }
 
 ##### Apagar Mensagem 
