@@ -1,4 +1,5 @@
-import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContext'
+import 
+import type { HttpContextContract } from '@ioc:Adonis/Core/HttpContex'
 import User from 'App/Models/User'
 import RegisterUserValidator from '../../Validators/RegisterUserValidator'
 
